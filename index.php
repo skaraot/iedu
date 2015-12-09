@@ -50,9 +50,10 @@ while (false !== ($filename = readdir($dh))) {
 	$uzanti=$path_parts['extension'];
 	$newName=seo($path_parts['filename']);
 	
-	echo $newName.'<br>';
+	#echo $newName.'<br>';
+	echo "Yeni dosya Adý : ".$newName;
 	#echo $path_parts['filename'].'<br>';
-	rename('video/'.$filename, 'video/'.$newName.".".$uzanti);
+	#rename('video/'.$filename, 'video/'.$newName.".".$uzanti);
 	# echo "video/".$filename." | video/".$newName.".".$uzanti."<br>";
 }
 ?>
