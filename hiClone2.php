@@ -2,6 +2,7 @@
 echo "merhaba git hub";
 echo "<br>";
 echo "deneme";
+echo "<h3>Merhabalar</h3>";
 $adlar=array('serkan', 'mahmut', 'hamdi', 'taşkın', 'samet');
 foreach ($adlar as $value){
 	echo $value."<br>";
