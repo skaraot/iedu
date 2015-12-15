@@ -11,4 +11,8 @@ echo "<hr>".count($adlar)." adet isim var ";
 /*for ($i=0;$i<=count($adlar)-1;$i++){
 	echo $adlar[$i];
 }*/
+
+
+
+be34tasaaaas
 ?>
