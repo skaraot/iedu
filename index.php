@@ -51,7 +51,8 @@ while (false !== ($filename = readdir($dh))) {
 	$newName=seo($path_parts['filename']);
 	
 	#echo $newName.'<br>';
-	echo "Yeni dosya Adý : ".$newName;
+	#echo "Yeni dosya Adý : ".$newName;
+	echo $newName."<br>";
 	#echo $path_parts['filename'].'<br>';
 	#rename('video/'.$filename, 'video/'.$newName.".".$uzanti);
 	# echo "video/".$filename." | video/".$newName.".".$uzanti."<br>";
